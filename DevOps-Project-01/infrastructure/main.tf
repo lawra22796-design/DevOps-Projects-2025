@@ -85,5 +85,4 @@ module "monitoring" {
   environment = var.environment
   rds_instance_id = module.rds.rds_instance_id
   asg_name = module.asg.asg_name
-} 
-Lawrance 
+}
